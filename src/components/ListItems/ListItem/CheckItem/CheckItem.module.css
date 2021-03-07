@@ -1,0 +1,37 @@
+.CheckItem {
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 4px #c3c3c3;
+}
+
+.CheckItem.Checked {
+  background-color: #36d7b1;
+}
+
+.Checkmark {
+  display:inline-block;
+  width: 22px;
+  height:22px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.CheckmarkStem {
+  position: absolute;
+  width:3px;
+  height:9px;
+  background-color:white;
+  left:11px;
+  top:6px;
+}
+
+.CheckmarkKick {
+  position: absolute;
+  width:3px;
+  height:3px;
+  background-color:white;
+  left:8px;
+  top:12px;
+}

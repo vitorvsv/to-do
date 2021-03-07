@@ -1,0 +1,15 @@
+.ListItem {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  width: 100%;
+  background-color: white;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 10px 1px #c3c3c3;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}

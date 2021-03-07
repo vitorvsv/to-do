@@ -1,0 +1,23 @@
+.ListItems {
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ListItems h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 820px) {
+  .ListItems {
+    max-width: 60%;
+  }
+}
+
+/* 
+  Check: #36d7b1
+  Button: #5ca8e0
+  Bottom shadow: #5ca8e0  
+*/

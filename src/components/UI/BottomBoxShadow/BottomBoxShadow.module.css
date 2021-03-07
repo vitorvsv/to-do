@@ -1,0 +1,9 @@
+.BottomBoxShadow {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 10px 10px 50px 40px white;
+  /* height: 20px; */
+  /* background-color: red; */
+}

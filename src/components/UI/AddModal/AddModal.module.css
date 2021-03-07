@@ -1,0 +1,56 @@
+.AddModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 200px;
+  background-color: white;
+  z-index: 200;
+  border-radius: 20px;
+}
+
+.AddModal .AddModalHeader {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 60px;
+  background-color: red;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #5ca8e0;
+}
+
+.AddModal .AddModalHeader h1 {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
+
+.AddModal .ModalBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: calc(100% - 60px);
+}
+
+.AddModal .ModalBody input {
+  border: unset;
+  border-bottom: 2px solid #5ca8e0;
+  width: 80%;
+  height: 30px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.AddModal .ModalBody button {
+  background-color: #5ca8e0;
+  color: white;
+  border: unset;
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
